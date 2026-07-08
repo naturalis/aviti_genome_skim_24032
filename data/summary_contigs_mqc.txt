@@ -1,0 +1,287 @@
+ID	Index	Contig	GC	Length	Coverage	Superkingdom	Kingdom	Phylum	Class	Order	Family	Species	N. genes	Cox1	Genes list
+NCBN002890_A01_RMNH_INS_23293	0	NCBN002890_A01_RMNH_INS_23293_contig0	0.178	354	47.0028	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Geometridae	Pygospila tyres	2	0	cox3,nad3
+NCBN002890_A01_RMNH_INS_23293	1	NCBN002890_A01_RMNH_INS_23293_contig1	0.2661	481	30.3742	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Graphium mullah	1	0	cob
+NCBN002890_A01_RMNH_INS_23293	2	NCBN002890_A01_RMNH_INS_23293_contig2	0.2144	457	36.0832	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Triuncina daii	1	0	atp6
+NCBN002890_A01_RMNH_INS_23293	3	NCBN002890_A01_RMNH_INS_23293_contig3	0.309	1152	29.7986	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Zerynthia polyxena	1	1	cox1
+NCBN002890_A01_RMNH_INS_23293	4	NCBN002890_A01_RMNH_INS_23293_contig4	0.2145	1161	91.6494	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	2	0	cob,nad1
+NCBN002890_A01_RMNH_INS_23293	5	NCBN002890_A01_RMNH_INS_23293_contig5	0.2152	553	35.9602	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Cucullia pustulata	2	1	cox1,cox2
+NCBN002890_A01_RMNH_INS_23293	6	NCBN002890_A01_RMNH_INS_23293_contig6	0.1608	1381	52.0311	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Cnaphalocrocis medinalis	2	1	cox1,nad2
+NCBN002890_A01_RMNH_INS_23293	7	NCBN002890_A01_RMNH_INS_23293_contig7	0.1892	962	60.1767	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Peridea elzet	3	0	nad4-a,nad4-b,nad5
+NCBN002890_A01_RMNH_INS_23293	8	NCBN002890_A01_RMNH_INS_23293_contig8	0.1339	1128	79.3165	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hesperiidae	Ctenoplusia albostriata	2	0	nad4l,nad6
+NCBN002890_A01_RMNH_INS_23293	9	NCBN002890_A01_RMNH_INS_23293_contig9	0.1883	892	107.7623	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Thitarodes damxungensis	1	0	nad4
+NCBN002890_A01_RMNH_INS_23293	10	NCBN002890_A01_RMNH_INS_23293_contig10	0.2622	511	22.6027	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parantica swinhoei	2	0	cox3_0,cox3_1
+NCBN002890_A02_RMNH_INS_1719806	0	NCBN002890_A02_RMNH_INS_1719806_circular	0.1917	15155	99.0019	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_A03_RMNH_INS_1719811	0	NCBN002890_A03_RMNH_INS_1719811_circular	0.1912	15170	188.0308	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_A04_RMNH_INS_1719818	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_A05_RMNH_INS_1719828	0	NCBN002890_A05_RMNH_INS_1719828_circular	0.2039	15181	191.1257	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_A06_RMNH_INS_31812	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_A07_RMNH_INS_25507	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_A07_RMNH_INS_25673	0	NCBN002890_A07_RMNH_INS_25673_circular	0.1879	15153	401.8332	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_A08_RMNH_INS_25505	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_A09_RMNH_INS_25532	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_A10_RMNH_INS_25527	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_A11_RMNH_INS_25470	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002884_A12_ZSM_Lep_160419	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_B01_RMNH_INS_21896	0	NCBN002890_B01_RMNH_INS_21896_contig0	0.1863	553	27.2893	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Antheraea pernyi x Antherea roylei	1	0	nad4
+NCBN002890_B01_RMNH_INS_21896	1	NCBN002890_B01_RMNH_INS_21896_contig1	0.1523	302	27.2417	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Pygospila tyres	2	0	cob,nad6
+NCBN002890_B01_RMNH_INS_21896	2	NCBN002890_B01_RMNH_INS_21896_contig2	0.2428	453	20.702	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Peridea elzet	2	0	nad4,nad5
+NCBN002890_B01_RMNH_INS_21896	3	NCBN002890_B01_RMNH_INS_21896_contig3	0.1869	658	21.4848	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Lethe marginalis	1	0	nad2
+NCBN002890_B01_RMNH_INS_21896	4	NCBN002890_B01_RMNH_INS_21896_contig4	0.202	713	29.8093	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Riodinidae	Triodia sylvina	1	0	nad1
+NCBN002890_B01_RMNH_INS_21896	5	NCBN002890_B01_RMNH_INS_21896_contig5	0.2351	1540	22.5578	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	4	0	atp6_0,atp6_1,cox3,nad3
+NCBN002890_B01_RMNH_INS_21896	6	NCBN002890_B01_RMNH_INS_21896_contig6	0.2598	1047	16.2149	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	2	1	cox1,cox2
+NCBN002890_B01_RMNH_INS_21896	7	NCBN002890_B01_RMNH_INS_21896_contig7	0.2347	524	16.292	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Ernolatia moorei	1	0	cox2
+NCBN002890_B02_RMNH_INS_1719807	0	NCBN002890_B02_RMNH_INS_1719807_contig0	0.1429	413	74.431	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	2	0	atp6,atp8
+NCBN002890_B02_RMNH_INS_1719807	1	NCBN002890_B02_RMNH_INS_1719807_contig1	0.2237	657	48.0365	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Limacodidae	Phocoderma betis	2	0	atp6,cox3
+NCBN002890_B02_RMNH_INS_1719807	2	NCBN002890_B02_RMNH_INS_1719807_contig2	0.2047	1285	46.4576	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Ambulyx schauffelbergeri	2	1	cox1,nad2
+NCBN002890_B02_RMNH_INS_1719807	3	NCBN002890_B02_RMNH_INS_1719807_contig3	0.2374	396	37.2045	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Cucullia pustulata	2	0	cox2_0,cox2_1
+NCBN002890_B02_RMNH_INS_1719807	4	NCBN002890_B02_RMNH_INS_1719807_contig4	0.188	2962	97.9257	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Triodia sylvina	4	0	cob,nad4,nad4l,nad6
+NCBN002890_B02_RMNH_INS_1719807	5	NCBN002890_B02_RMNH_INS_1719807_contig5	0.2956	697	32.9354	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Anomis mesogona	1	1	cox1
+NCBN002890_B02_RMNH_INS_1719807	6	NCBN002890_B02_RMNH_INS_1719807_contig6	0.1967	915	83.2328	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nolidae	Earias clorana	2	0	cox3,nad3
+NCBN002890_B02_RMNH_INS_1719807	7	NCBN002890_B02_RMNH_INS_1719807_contig7	0.1941	1087	58.5023	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	2	0	cob,nad1
+NCBN002890_B02_RMNH_INS_1719807	8	NCBN002890_B02_RMNH_INS_1719807_contig8	0.1907	1736	66.0818	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Helicoverpa punctigera	2	0	nad4,nad5
+NCBN002890_B03_RMNH_INS_1719812	0	NCBN002890_B03_RMNH_INS_1719812_circular	0.1919	15155	159.334	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_B04_RMNH_INS_1719819	0	NCBN002890_B04_RMNH_INS_1719819_contig0	0.1898	7939	87.1802	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Prophantis octoguttalis	10	0	cob,nad1,nad4_0,nad4_1,nad4l,nad5,nad6,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_B04_RMNH_INS_1719819	1	NCBN002890_B04_RMNH_INS_1719819_contig1	0.2266	7307	65.8347	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	8	1	atp6,atp8,cox1,cox2,cox3,nad2,nad3,nad5
+NCBN002890_B05_RMNH_INS_1719829	0	NCBN002890_B05_RMNH_INS_1719829_circular	0.1876	15088	358.2833	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ostrinia scapulalis	19	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5_0,nad5_1,nad5_2,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_B06_RMNH_INS_25607	0	NCBN002890_B06_RMNH_INS_25607_contig0	0.2397	317	6.1861	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Limacodidae	Phocoderma betis	1	0	atp6
+NCBN001861_B07_RMNH_INS_25494	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_B07_RMNH_INS_25676	0	NCBN002890_B07_RMNH_INS_25676_circular	0.1878	15150	103.1949	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002884_B08_RMNH_INS_18436	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_B08_RMNH_INS_25682	0	NCBN002890_B08_RMNH_INS_25682_circular	0.2159	15131	584.9112	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Prophantis octoguttalis	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_B09_RMNH_INS_25531	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_B10_RMNH_INS_25466	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_B11_RMNH_INS_25534	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002884_B12_MZLU00236121	0	NCBN002884_B12_MZLU00236121_contig0	0.2077	1016	22.3907	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	2	0	cob,nad1
+NCBN002884_B12_MZLU00236121	1	NCBN002884_B12_MZLU00236121_contig1	0.2052	2856	20.2293	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Triodia sylvina	5	0	atp6,atp8,cox2,cox3,nad3
+NCBN002884_B12_MZLU00236121	2	NCBN002884_B12_MZLU00236121_contig2	0.2144	886	18.991	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Ambulyx substrigilis	2	0	cob,nad6
+NCBN002884_B12_MZLU00236121	3	NCBN002884_B12_MZLU00236121_contig3	0.211	1673	16.9564	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Choristoneura conflictana	2	1	cox1,nad2
+NCBN002884_B12_MZLU00236121	4	NCBN002884_B12_MZLU00236121_contig4	0.1603	2552	26.7363	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	5	0	nad4,nad4l,nad5_0,nad5_1,nad6
+NCBN002884_B12_MZLU00236121	5	NCBN002884_B12_MZLU00236121_contig5	0.2341	1209	17.0769	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Choristoneura murinana	2	1	cox1,cox2
+NCBN002890_C01_RMNH_INS_1719804	0	NCBN002890_C01_RMNH_INS_1719804_circular	0.1921	15245	269.8497	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Endoxyla cinereus	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_C02_RMNH_INS_1719808	0	NCBN002890_C02_RMNH_INS_1719808_contig0	0.2477	1978	42.6749	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Paracymoriza distinctalis	2	1	cox1,cox2
+NCBN002890_C02_RMNH_INS_1719808	1	NCBN002890_C02_RMNH_INS_1719808_contig1	0.2055	1937	43.6438	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Ambulyx schauffelbergeri	3	0	cox1_0,cox1_1,nad2
+NCBN002890_C02_RMNH_INS_1719808	2	NCBN002890_C02_RMNH_INS_1719808_contig2	0.1484	546	65.3736	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Actinotia intermediata	2	0	atp6,atp8
+NCBN002890_C02_RMNH_INS_1719808	3	NCBN002890_C02_RMNH_INS_1719808_contig3	0.1928	923	61.5341	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	1	0	nad1
+NCBN002890_C02_RMNH_INS_1719808	4	NCBN002890_C02_RMNH_INS_1719808_contig4	0.1891	2285	63.0582	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Maruca vitrata	4	0	cob,nad4,nad4l,nad6
+NCBN002890_C02_RMNH_INS_1719808	5	NCBN002890_C02_RMNH_INS_1719808_contig5	0.19	4701	69.1347	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Cucullia pustulata	4	0	cox3,nad3,nad4,nad5
+NCBN002890_C03_RMNH_INS_1719813	0	NCBN002890_C03_RMNH_INS_1719813_contig0	0.168	518	59.2085	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Saturniidae	Endoclita signifer	1	0	nad4
+NCBN002890_C03_RMNH_INS_1719813	1	NCBN002890_C03_RMNH_INS_1719813_contig1	0.1647	941	44.0871	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Ambulyx schauffelbergeri	2	1	cox1,nad2
+NCBN002890_C03_RMNH_INS_1719813	2	NCBN002890_C03_RMNH_INS_1719813_contig2	0.2006	967	41.2151	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Pyrgus maculatus	2	0	cob,nad1
+NCBN002890_C03_RMNH_INS_1719813	3	NCBN002890_C03_RMNH_INS_1719813_contig3	0.2069	817	27.3868	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	1	0	nad1
+NCBN002890_C03_RMNH_INS_1719813	4	NCBN002890_C03_RMNH_INS_1719813_contig4	0.2658	489	21.7178	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius apollonius	1	0	cox3
+NCBN002890_C03_RMNH_INS_1719813	5	NCBN002890_C03_RMNH_INS_1719813_contig5	0.1302	1252	84.3562	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Choristoneura murinana	3	0	nad4,nad4l,nad6
+NCBN002890_C03_RMNH_INS_1719813	6	NCBN002890_C03_RMNH_INS_1719813_contig6	0.203	1074	34.8762	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Phocoderma betis	3	0	atp6,atp8,cox3
+NCBN002890_C03_RMNH_INS_1719813	7	NCBN002890_C03_RMNH_INS_1719813_contig7	0.1865	2584	45.0848	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis patnalis	3	0	cox3,nad3,nad5
+NCBN002890_C03_RMNH_INS_1719813	8	NCBN002890_C03_RMNH_INS_1719813_contig8	0.2525	1679	28.9625	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cucullia pustulata	2	1	cox1,cox2
+NCBN002890_C04_RMNH_INS_1719824	0	NCBN002890_C04_RMNH_INS_1719824_contig0	0.285	758	45.1953	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius eversmanni	1	1	cox1
+NCBN002890_C04_RMNH_INS_1719824	1	NCBN002890_C04_RMNH_INS_1719824_contig1	0.1818	2321	87.5644	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Pseudonoorda nigropunctalis	3	0	cox3,nad3,nad5
+NCBN002890_C04_RMNH_INS_1719824	2	NCBN002890_C04_RMNH_INS_1719824_contig2	0.2125	1619	70.1007	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	3	0	atp6,atp8,cox3
+NCBN002890_C04_RMNH_INS_1719824	3	NCBN002890_C04_RMNH_INS_1719824_contig3	0.2211	1253	55.32	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	3	0	cox1_0,cox1_1,cox2
+NCBN002890_C04_RMNH_INS_1719824	4	NCBN002890_C04_RMNH_INS_1719824_contig4	0.2073	2952	77.5112	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Ahlbergia frivaldszkyi	3	0	cob,nad1,nad6
+NCBN002890_C04_RMNH_INS_1719824	5	NCBN002890_C04_RMNH_INS_1719824_contig5	0.1738	2215	93.7661	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Triodia sylvina	5	0	nad4,nad4l,nad5_0,nad5_1,nad6
+NCBN002890_C04_RMNH_INS_1719824	6	NCBN002890_C04_RMNH_INS_1719824_contig6	0.1407	3576	95.5425	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Dusungwua basinigra	5	0	nad2,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_C05_RMNH_INS_25263	0	NCBN002890_C05_RMNH_INS_25263_contig0	0.1933	15174	158.0084	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Omiodes indicata	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4_0,nad4_1,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_C06_RMNH_INS_25608	0	NCBN002890_C06_RMNH_INS_25608_contig0	0.2109	15348	838.771	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Prophantis adusta	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS
+NCBN001861_C07_RMNH_INS_25525	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_C07_RMNH_INS_25677	0	NCBN002890_C07_RMNH_INS_25677_circular	0.1877	15151	1363.9477	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS
+NCBN002884_C08_RMNH_INS_30287	0	NCBN002884_C08_RMNH_INS_30287_circular	0.1929	15184	1446.7575	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Chilo suppressalis	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS
+NCBN002890_C08_RMNH_INS_25683	0	NCBN002890_C08_RMNH_INS_25683_contig0	0.1998	15093	477.8638	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pseudonoorda nigropunctalis	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_C09_RMNH_INS_25526	0	NCBN001861_C09_RMNH_INS_25526_contig0	0.2286	560	11.1411	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Prays oleae	1	0	cox2
+NCBN001861_C09_RMNH_INS_25526	1	NCBN001861_C09_RMNH_INS_25526_contig1	0.3065	1253	14.4804	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Zerynthia polyxena	1	1	cox1
+NCBN001861_C09_RMNH_INS_25526	2	NCBN001861_C09_RMNH_INS_25526_contig2	0.2168	798	10.6216	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Pyralidae	Cerace xanthocosma	1	0	nad5
+NCBN001861_C09_RMNH_INS_25526	3	NCBN001861_C09_RMNH_INS_25526_contig3	0.2455	1348	17.8546	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Sinomphisa plagialis	3	0	atp6,cox3,nad3
+NCBN001861_C10_RMNH_INS_25473	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_C11_RMNH_INS_25539	0	NCBN001861_C11_RMNH_INS_25539_contig0	0.146	322	4.3727	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	1	0	nad5
+NCBN001861_C11_RMNH_INS_25539	1	NCBN001861_C11_RMNH_INS_25539_contig1	0.1562	512	9.1973	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Xanthabraxas hemionata	3	0	nad4_0,nad4_1,nad4l
+NCBN001861_C11_RMNH_INS_25539	2	NCBN001861_C11_RMNH_INS_25539_contig2	0.2123	457	12.5295	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hesperiidae	Leptalina unicolor	1	0	nad1
+NCBN001861_C11_RMNH_INS_25539	3	NCBN001861_C11_RMNH_INS_25539_contig3	0.3007	735	10.7347	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Zerynthia polyxena	1	1	cox1
+NCBN002884_C12_RMNH_INS_25629	0	NCBN002884_C12_RMNH_INS_25629_contig0	0.1268	623	12.8266	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Graphium sarpedon	3	0	nad4_0,nad4_1,nad4l
+NCBN002884_C12_RMNH_INS_25629	1	NCBN002884_C12_RMNH_INS_25629_contig1	0.184	413	25.8354	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parantica melaneus	1	0	nad2
+NCBN002884_C12_RMNH_INS_25629	2	NCBN002884_C12_RMNH_INS_25629_contig2	0.1977	779	19.7099	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Triodia sylvina	3	0	atp6,atp8,cox2
+NCBN002884_C12_RMNH_INS_25629	3	NCBN002884_C12_RMNH_INS_25629_contig3	0.1661	644	23.8571	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Sphragifera sigillata	1	0	nad5
+NCBN002884_C12_RMNH_INS_25629	4	NCBN002884_C12_RMNH_INS_25629_contig4	0.1851	1264	17.9573	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Tyspanodes hypsalis	1	0	nad4
+NCBN002884_C12_RMNH_INS_25629	5	NCBN002884_C12_RMNH_INS_25629_contig5	0.1578	393	13.5267	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Westermannia superba	1	0	nad6
+NCBN002884_C12_RMNH_INS_25629	6	NCBN002884_C12_RMNH_INS_25629_contig6	0.2398	2239	22.8106	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius mnemosyne	3	1	cox1,cox2,nad2
+NCBN002884_C12_RMNH_INS_25629	7	NCBN002884_C12_RMNH_INS_25629_contig7	0.1996	1538	24.6717	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Athetis thoracica	2	0	cob,nad1
+NCBN002884_C12_RMNH_INS_25629	8	NCBN002884_C12_RMNH_INS_25629_contig8	0.2245	815	22.8356	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Protantigius superans	2	0	cob,nad6
+NCBN002884_C12_RMNH_INS_25629	9	NCBN002884_C12_RMNH_INS_25629_contig9	0.1947	2029	20.4771	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Pseudoips prasinana	3	0	cox3,nad3,nad5
+NCBN002890_D01_RMNH_INS_21715	0	NCBN002890_D01_RMNH_INS_21715_contig0	0.1538	546	68.6502	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Erebidae	Ophthalmitis albosignaria	1	0	nad3
+NCBN002890_D01_RMNH_INS_21715	1	NCBN002890_D01_RMNH_INS_21715_contig1	0.2528	981	58.6402	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Polypogon tarsicrinata	2	0	atp6,cox3
+NCBN002890_D01_RMNH_INS_21715	2	NCBN002890_D01_RMNH_INS_21715_contig2	0.204	892	70.583	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius acco	2	0	cob,nad1
+NCBN002890_D01_RMNH_INS_21715	3	NCBN002890_D01_RMNH_INS_21715_contig3	0.1455	701	127.0328	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Choristoneura murinana	3	0	nad4,nad4l,nad6
+NCBN002890_D01_RMNH_INS_21715	4	NCBN002890_D01_RMNH_INS_21715_contig4	0.2902	1058	52.0274	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Zerynthia polyxena	1	1	cox1
+NCBN002890_D01_RMNH_INS_21715	5	NCBN002890_D01_RMNH_INS_21715_contig5	0.2067	1258	67.9595	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Ambulyx schauffelbergeri	2	1	cox1,nad2
+NCBN002890_D01_RMNH_INS_21715	6	NCBN002890_D01_RMNH_INS_21715_contig6	0.2107	674	70.7359	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Actinotia intermediata	2	0	nad4_0,nad4_1
+NCBN002890_D01_RMNH_INS_21715	7	NCBN002890_D01_RMNH_INS_21715_contig7	0.2008	1549	83.0039	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius hannyngtoni	1	0	nad1
+NCBN002890_D01_RMNH_INS_21715	8	NCBN002890_D01_RMNH_INS_21715_contig8	0.1351	866	97.709	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Limenitis populi	1	0	nad5
+NCBN002890_D01_RMNH_INS_21715	9	NCBN002890_D01_RMNH_INS_21715_contig9	0.2059	1918	71.1168	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Phocoderma betis	4	1	atp6,atp8,cox1,cox2
+NCBN002890_D02_RMNH_INS_1719809	0	NCBN002890_D02_RMNH_INS_1719809_circular	0.1893	15188	184.4932	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_D03_RMNH_INS_1719814	0	NCBN002890_D03_RMNH_INS_1719814_circular	0.1911	15172	219.7838	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_D04_RMNH_INS_22334	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_D05_RMNH_INS_1719830	0	NCBN002890_D05_RMNH_INS_1719830_circular	0.1929	15091	245.205	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Lyssa zampa	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_D06_RMNH_INS_25609	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_D07_RMNH_INS_25503	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_D07_RMNH_INS_31854	0	NCBN002890_D07_RMNH_INS_31854_circular	0.1926	15150	442.389	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL-a,rrnL-b,rrnS_0,rrnS_1,rrnS_2
+NCBN000729_D08_RMNH_5012114	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_D08_RMNH_INS_25502	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_D09_RMNH_INS_25479	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_D10_RMNH_INS_25536	0	NCBN001861_D10_RMNH_INS_25536_contig0	0.2272	449	15.3474	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Polyura arja	1	0	cox3
+NCBN001861_D10_RMNH_INS_25536	1	NCBN001861_D10_RMNH_INS_25536_contig1	0.2467	531	10.7608	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Triodia sylvina	1	0	cob
+NCBN001861_D10_RMNH_INS_25536	2	NCBN001861_D10_RMNH_INS_25536_contig2	0.1614	477	23.566	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hesperiidae	Celaenorrhinus aspersus	1	0	nad3
+NCBN001861_D10_RMNH_INS_25536	3	NCBN001861_D10_RMNH_INS_25536_contig3	0.2052	307	13.3485	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Thitarodes damxungensis	1	0	nad4
+NCBN001861_D10_RMNH_INS_25536	4	NCBN001861_D10_RMNH_INS_25536_contig4	0.2308	676	24.0917	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	3	1	cox1,cox2,rrnL
+NCBN001861_D10_RMNH_INS_25536	5	NCBN001861_D10_RMNH_INS_25536_contig5	0.2124	372	5.043	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Cucullia pustulata	1	0	nad1
+NCBN001861_D10_RMNH_INS_25536	6	NCBN001861_D10_RMNH_INS_25536_contig6	0.2341	645	13.6822	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Limacodidae	Phocoderma betis	2	0	atp6,cox3
+NCBN001861_D10_RMNH_INS_25536	7	NCBN001861_D10_RMNH_INS_25536_contig7	0.1859	382	17.6335	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Morophaga formosana	1	0	nad5
+NCBN001861_D10_RMNH_INS_25536	8	NCBN001861_D10_RMNH_INS_25536_contig8	0.1411	333	6.6246	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Dichomeris ustalella	2	0	nad4,nad4l
+NCBN001861_D10_RMNH_INS_25536	9	NCBN001861_D10_RMNH_INS_25536_contig9	0.1561	487	12.616	no-hit	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Hepialus xiaojinensis	1	0	nad2
+NCBN002884_D11_ZSM_Lep_160420	0	NCBN002884_D11_ZSM_Lep_160420_circular	0.1879	15152	176.4951	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Pectinophora gossypiella	16	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS
+NCBN002884_D12_ZSM_Lep_160416	0	NCBN002884_D12_ZSM_Lep_160416_contig0	0.252	500	15.706	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Endoclita signifer	1	0	cox3
+NCBN002884_D12_ZSM_Lep_160416	1	NCBN002884_D12_ZSM_Lep_160416_contig1	0.1768	690	39.5754	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Thitarodes pui	1	0	nad2
+NCBN002884_D12_ZSM_Lep_160416	2	NCBN002884_D12_ZSM_Lep_160416_contig2	0.1991	1351	28.8719	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Phthorimaea operculella	2	0	cob,nad1
+NCBN002884_D12_ZSM_Lep_160416	3	NCBN002884_D12_ZSM_Lep_160416_contig3	0.1769	3613	28.0886	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Tyspanodes hypsalis	6	0	cob,nad4,nad4l,nad5_0,nad5_1,nad6
+NCBN002884_D12_ZSM_Lep_160416	4	NCBN002884_D12_ZSM_Lep_160416_contig4	0.2266	3959	27.7019	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Triodia sylvina	6	1	atp6,atp8,cox1,cox2,cox3,nad2
+NCBN002884_D12_ZSM_Lep_160416	5	NCBN002884_D12_ZSM_Lep_160416_contig5	0.1811	2181	26.2568	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pectinophora gossypiella	2	0	nad3,nad5
+NCBN002890_E01_RMNH_INS_21714	0	NCBN002890_E01_RMNH_INS_21714_contig0	0.221	2552	135.6462	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Dodona dipoea	2	1	cox1,nad2
+NCBN002890_E01_RMNH_INS_21714	1	NCBN002890_E01_RMNH_INS_21714_contig1	0.183	12216	191.6632	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pygospila tyres	16	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_E02_RMNH_INS_22549	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_E03_RMNH_INS_1719815	0	NCBN002890_E03_RMNH_INS_1719815_circular	0.1914	15129	195.3064	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Pycnarmon lactiferalis	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5_0,nad5_1,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_E04_RMNH_INS_23221	0	NCBN002890_E04_RMNH_INS_23221_contig0	0.1409	298	17.3389	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	2	0	nad4_0,nad4_1
+NCBN002890_E04_RMNH_INS_23221	1	NCBN002890_E04_RMNH_INS_23221_contig1	0.1533	274	27.6606	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	1	0	nad4l
+NCBN002890_E04_RMNH_INS_23221	2	NCBN002890_E04_RMNH_INS_23221_contig2	0.3215	423	17.0544	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Omiodes indicata	1	1	cox1
+NCBN002890_E04_RMNH_INS_23221	3	NCBN002890_E04_RMNH_INS_23221_contig3	0.1714	280	12.7429	no-hit	Metazoa	Arthropoda	Insecta	Coleoptera	Carabidae	Opisina arenosella	1	0	atp6
+NCBN002890_E04_RMNH_INS_23221	4	NCBN002890_E04_RMNH_INS_23221_contig4	0.2279	272	22.4412	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius eversmanni	1	0	cox2
+NCBN002890_E04_RMNH_INS_23221	5	NCBN002890_E04_RMNH_INS_23221_contig5	0.1616	687	29.2082	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Junonia natalica	1	0	nad2
+NCBN002890_E04_RMNH_INS_23221	6	NCBN002890_E04_RMNH_INS_23221_contig6	0.1975	319	12.1912	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Galleria mellonella	1	0	nad5
+NCBN002890_E04_RMNH_INS_23221	7	NCBN002890_E04_RMNH_INS_23221_contig7	0.2445	364	10.2198	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Heortia vitessoides	2	0	nad1_0,nad1_1
+NCBN002890_E05_RMNH_INS_1719831	0	NCBN002890_E05_RMNH_INS_1719831_contig0	0.2079	1299	20.7021	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Conopomorpha sinensis	4	1	atp6,atp8,cox1,cox2
+NCBN002890_E05_RMNH_INS_1719831	1	NCBN002890_E05_RMNH_INS_1719831_contig1	0.2163	1854	23.6553	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon cribrata	3	0	atp6,cox3,nad3
+NCBN002890_E05_RMNH_INS_1719831	2	NCBN002890_E05_RMNH_INS_1719831_contig2	0.2084	2044	20.8518	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Ambulyx schauffelbergeri	2	1	cox1,nad2
+NCBN002890_E05_RMNH_INS_1719831	3	NCBN002890_E05_RMNH_INS_1719831_contig3	0.1707	3802	32.3695	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Galleria mellonella	4	0	nad4,nad4l,nad5,nad6
+NCBN002890_E05_RMNH_INS_1719831	4	NCBN002890_E05_RMNH_INS_1719831_contig4	0.193	2124	24.4077	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Ahlbergia frivaldszkyi	3	0	cob,nad1,nad6
+NCBN002890_E06_RMNH_INS_25610	0	NCBN002890_E06_RMNH_INS_25610_circular	0.1972	15119	7909.0232	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_E07_RMNH_INS_25504	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_E07_RMNH_INS_31855	0	NCBN002890_E07_RMNH_INS_31855_contig0	0.2679	321	13.6106	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Curetis bulis	1	1	cox1
+NCBN002890_E07_RMNH_INS_31855	1	NCBN002890_E07_RMNH_INS_31855_contig1	0.1129	549	16.7923	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	2	0	nad6_0,nad6_1
+NCBN002890_E07_RMNH_INS_31855	2	NCBN002890_E07_RMNH_INS_31855_contig2	0.2591	552	15.8315	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Prophantis octoguttalis	2	0	cox3_0,cox3_1
+NCBN002890_E07_RMNH_INS_31855	3	NCBN002890_E07_RMNH_INS_31855_contig3	0.1674	681	26.0162	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Spodoptera exempta	1	0	nad4
+NCBN002890_E07_RMNH_INS_31855	4	NCBN002890_E07_RMNH_INS_31855_contig4	0.1874	838	18.4905	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Anarta trifolii	3	0	cox3,nad3_0,nad3_1
+NCBN002890_E07_RMNH_INS_31855	5	NCBN002890_E07_RMNH_INS_31855_contig5	0.2069	1953	21.509	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Triodia sylvina	4	1	atp6,atp8,cox1,cox2
+NCBN002890_E07_RMNH_INS_31855	6	NCBN002890_E07_RMNH_INS_31855_contig6	0.1777	591	16.3469	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Geometridae	Menophra senilis	1	0	nad2
+NCBN002890_E07_RMNH_INS_31855	7	NCBN002890_E07_RMNH_INS_31855_contig7	0.2219	1582	21.5904	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Cnaphalocrocis medinalis	2	0	cob,nad1
+NCBN002890_E07_RMNH_INS_31855	8	NCBN002890_E07_RMNH_INS_31855_contig8	0.1377	494	22.0405	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	3	0	nad4,nad5_0,nad5_1
+NCBN001064_E08_RMNH_INS_25054	0	NCBN001064_E08_RMNH_INS_25054_contig0	0.1925	15348	101.6454	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Lyssa zampa	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL-a,rrnL-b,rrnS_0,rrnS_1,rrnS_2
+NCBN002884_E08_RMNH_INS_25664	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_E09_RMNH_INS_25541	0	NCBN001861_E09_RMNH_INS_25541_contig0	0.269	316	4.3671	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ochlodes venata	1	1	cox1
+NCBN001861_E10_RMNH_INS_25480	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002884_E11_RMNH_INS_15291	0	NCBN002884_E11_RMNH_INS_15291_contig0	0.2258	2453	30.7848	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Choristoneura murinana	2	1	cox1,nad2
+NCBN002884_E11_RMNH_INS_15291	1	NCBN002884_E11_RMNH_INS_15291_contig1	0.2171	1907	35.0902	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Prophantis octoguttalis	4	0	atp6_0,atp6_1,cox3,nad3
+NCBN002884_E11_RMNH_INS_15291	2	NCBN002884_E11_RMNH_INS_15291_contig2	0.1791	2440	36.0082	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius andreji	3	0	nad4,nad4l,nad5
+NCBN002884_E11_RMNH_INS_15291	3	NCBN002884_E11_RMNH_INS_15291_contig3	0.19	2711	37.2719	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Tyspanodes hypsalis	4	0	cob,nad1,nad4l,nad6
+NCBN002884_E11_RMNH_INS_15291	4	NCBN002884_E11_RMNH_INS_15291_contig4	0.209	1550	29.7961	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Ahamus yushuensis	3	1	atp8,cox1,cox2
+NCBN000729_E12_RMNH_5012129	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F01_RMNH_INS_21717	0	NCBN002890_F01_RMNH_INS_21717_contig0	0.3017	832	28.4868	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Erebidae	Sphinx morio	1	1	cox1
+NCBN002890_F01_RMNH_INS_21717	1	NCBN002890_F01_RMNH_INS_21717_contig1	0.1597	313	78.6102	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius acdestis	1	0	nad4l
+NCBN002890_F01_RMNH_INS_21717	2	NCBN002890_F01_RMNH_INS_21717_contig2	0.2617	447	38.7517	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Thitarodes damxungensis	1	0	cox2
+NCBN002890_F01_RMNH_INS_21717	3	NCBN002890_F01_RMNH_INS_21717_contig3	0.1517	659	53.4886	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Riodinidae	Elophila turbata	1	0	nad2
+NCBN002890_F01_RMNH_INS_21717	4	NCBN002890_F01_RMNH_INS_21717_contig4	0.2244	731	48.368	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Phocoderma betis	2	0	atp6,cox3
+NCBN002890_F01_RMNH_INS_21717	5	NCBN002890_F01_RMNH_INS_21717_contig5	0.1784	981	115.2824	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Epiphora bauhiniae	2	0	nad4,nad4l
+NCBN002890_F01_RMNH_INS_21717	6	NCBN002890_F01_RMNH_INS_21717_contig6	0.1923	931	56.6294	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	1	0	nad1
+NCBN002890_F01_RMNH_INS_21717	7	NCBN002890_F01_RMNH_INS_21717_contig7	0.2669	622	42.9502	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	1	0	cob
+NCBN002890_F01_RMNH_INS_21717	8	NCBN002890_F01_RMNH_INS_21717_contig8	0.1522	749	80.6395	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Athyma pravara	2	0	nad4,nad5
+NCBN002890_F01_RMNH_INS_21717	9	NCBN002890_F01_RMNH_INS_21717_contig9	0.1952	748	59.0882	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Earias clorana	2	0	cox3,nad3
+NCBN002890_F02_RMNH_INS_22294	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F03_RMNH_INS_1556756	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F04_RMNH_INS_1719825	0	NCBN002890_F04_RMNH_INS_1719825_contig0	0.2302	1759	60.6401	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Pygospila tyres	3	0	atp6,cox3,nad3
+NCBN002890_F04_RMNH_INS_1719825	1	NCBN002890_F04_RMNH_INS_1719825_contig1	0.2105	1254	50.9944	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Amesia sanguiflua	2	0	nad1,rrnL
+NCBN002890_F04_RMNH_INS_1719825	2	NCBN002890_F04_RMNH_INS_1719825_contig2	0.1626	1605	81.1022	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Loxostege sticticalis	3	0	nad4,nad4l,nad6
+NCBN002890_F04_RMNH_INS_1719825	3	NCBN002890_F04_RMNH_INS_1719825_contig3	0.2198	1902	62.4185	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Ahlbergia frivaldszkyi	3	0	cob,nad1,nad6
+NCBN002890_F04_RMNH_INS_1719825	4	NCBN002890_F04_RMNH_INS_1719825_contig4	0.1842	2855	79.5391	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Parapoynx crisonalis	3	0	nad3,nad4,nad5
+NCBN002890_F04_RMNH_INS_1719825	5	NCBN002890_F04_RMNH_INS_1719825_contig5	0.2704	2374	43.4874	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Parapoynx crisonalis	2	1	cox1,cox2
+NCBN002890_F04_RMNH_INS_1719825	6	NCBN002890_F04_RMNH_INS_1719825_contig6	0.1535	710	63.5493	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Batocnema coquerelii	2	0	nad2_0,nad2_1
+NCBN002890_F05_RMNH_INS_1719832	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F06_RMNH_INS_25612	0	NCBN002890_F06_RMNH_INS_25612_circular	0.1917	15048	1180.8527	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Triodia sylvina	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS
+NCBN001861_F07_RMNH_INS_25506	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F07_RMNH_INS_31856	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_F08_RMNH_INS_25475	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_F08_RMNH_INS_25615	0	NCBN002890_F08_RMNH_INS_25615_circular	0.1995	16299	435.2118	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ostrinia zealis	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS
+NCBN001861_F09_RMNH_INS_25515	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_F10_RMNH_INS_25493	0	NCBN001861_F10_RMNH_INS_25493_contig0	0.1912	1276	114.9185	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Erebidae	Choristoneura longicellana	2	0	cob,nad1
+NCBN001861_F10_RMNH_INS_25493	1	NCBN001861_F10_RMNH_INS_25493_contig1	0.1728	5516	79.5843	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Prophantis octoguttalis	6	0	cob,nad3,nad4,nad4l,nad5,nad6
+NCBN001861_F10_RMNH_INS_25493	2	NCBN001861_F10_RMNH_INS_25493_contig2	0.1507	1480	71.0561	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Thitarodes damxungensis	1	0	nad2
+NCBN001861_F10_RMNH_INS_25493	3	NCBN001861_F10_RMNH_INS_25493_contig3	0.2109	2053	48.2616	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Triodia sylvina	6	0	atp6,atp8,cox2_0,cox2_1,cox3,rrnL
+NCBN001861_F10_RMNH_INS_25493	4	NCBN001861_F10_RMNH_INS_25493_contig4	0.2484	1743	40.6133	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	2	1	cox1,cox2
+NCBN002884_F11_MZLU00236123	0	NCBN002884_F11_MZLU00236123_contig0	0.1687	670	11.4	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Syllepte taiwanalis	1	0	nad3
+NCBN002884_F11_MZLU00236123	1	NCBN002884_F11_MZLU00236123_contig1	0.1707	334	12.8772	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Pseudonoorda nigropunctalis	1	0	nad1
+NCBN002884_F11_MZLU00236123	2	NCBN002884_F11_MZLU00236123_contig2	0.2133	347	12.5072	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Botyodes diniasalis	1	0	nad4
+NCBN002884_F11_MZLU00236123	3	NCBN002884_F11_MZLU00236123_contig3	0.2801	607	10.5684	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Dophla evelina	1	1	cox1
+NCBN002884_F11_MZLU00236123	4	NCBN002884_F11_MZLU00236123_contig4	0.1984	1104	11.2645	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Triodia sylvina	4	0	atp6_0,atp6_1,atp8,cox2
+NCBN002884_F11_MZLU00236123	5	NCBN002884_F11_MZLU00236123_contig5	0.1778	1946	12.6418	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Gelechiidae	Phthorimaea operculella	2	0	nad4,nad5
+NCBN002884_F11_MZLU00236123	6	NCBN002884_F11_MZLU00236123_contig6	0.1488	672	10.2917	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Pyralidae	Cnaphalocrocis medinalis	3	0	nad4l,nad6_0,nad6_1
+NCBN002884_F11_MZLU00236123	7	NCBN002884_F11_MZLU00236123_contig7	0.2188	393	11.5394	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Curetis acuta	1	0	atp6
+NCBN002884_F11_MZLU00236123	8	NCBN002884_F11_MZLU00236123_contig8	0.2248	298	10.0268	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Polyptychus trilineatus	2	0	cob,nad6
+NCBN002884_F11_MZLU00236123	9	NCBN002884_F11_MZLU00236123_contig9	0.248	379	6.9868	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Thitarodes damxungensis	1	0	cox3
+NCBN002884_F11_MZLU00236123	10	NCBN002884_F11_MZLU00236123_contig10	0.1894	739	9.2585	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Hepialus xiaojinensis	1	0	nad2
+NCBN001118_F12_RMNH_INS_25105	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_G01_RMNH_INS_21713	0	NCBN002890_G01_RMNH_INS_21713_contig0	0.1707	656	52.2805	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nolidae	Euschemon rafflesia	1	0	nad3
+NCBN002890_G01_RMNH_INS_21713	1	NCBN002890_G01_RMNH_INS_21713_contig1	0.1364	308	58.9026	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	no-hit	3	0	atp6_0,atp6_1,atp8
+NCBN002890_G01_RMNH_INS_21713	2	NCBN002890_G01_RMNH_INS_21713_contig2	0.2123	961	41.7773	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Morophaga formosana	2	0	nad5_0,nad5_1
+NCBN002890_G01_RMNH_INS_21713	3	NCBN002890_G01_RMNH_INS_21713_contig3	0.179	553	51.3074	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Hulodes caranea	1	0	nad1
+NCBN002890_G01_RMNH_INS_21713	4	NCBN002890_G01_RMNH_INS_21713_contig4	0.2626	358	32.8017	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon cribrata	1	0	cox2
+NCBN002890_G01_RMNH_INS_21713	5	NCBN002890_G01_RMNH_INS_21713_contig5	0.222	509	42.4695	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Botyodes diniasalis	1	0	nad4
+NCBN002890_G01_RMNH_INS_21713	6	NCBN002890_G01_RMNH_INS_21713_contig6	0.2892	408	20.049	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Dichorragia nesimachus	1	1	cox1
+NCBN002890_G01_RMNH_INS_21713	7	NCBN002890_G01_RMNH_INS_21713_contig7	0.1759	756	53.3519	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Conogethes punctiferalis	2	0	cob,nad6
+NCBN002890_G01_RMNH_INS_21713	8	NCBN002890_G01_RMNH_INS_21713_contig8	0.2551	294	26.9184	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Batocnema coquerelii	1	0	cox3
+NCBN002890_G01_RMNH_INS_21713	9	NCBN002890_G01_RMNH_INS_21713_contig9	0.1854	437	43.6156	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Hamadryas epinome	1	0	nad2
+NCBN002890_G01_RMNH_INS_21713	10	NCBN002890_G01_RMNH_INS_21713_contig10	0.2414	464	28.3987	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Phocoderma betis	2	0	atp6,cox3
+NCBN002890_G01_RMNH_INS_21713	11	NCBN002890_G01_RMNH_INS_21713_contig11	0.1331	526	64.403	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius hannyngtoni	2	0	nad4l,nad6
+NCBN002890_G02_RMNH_INS_22295	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_G03_RMNH_INS_1719816	0	NCBN002890_G03_RMNH_INS_1719816_contig0	0.2021	856	137.8283	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Prophantis adusta	2	0	cox3,nad3
+NCBN002890_G03_RMNH_INS_1719816	1	NCBN002890_G03_RMNH_INS_1719816_contig1	0.1947	4212	159.3321	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Triodia sylvina	6	0	cob,nad4,nad4l,nad5_0,nad5_1,nad6
+NCBN002890_G03_RMNH_INS_1719816	2	NCBN002890_G03_RMNH_INS_1719816_contig2	0.2426	3743	112.9118	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Pycnarmon lactiferalis	6	0	atp6,atp8,cox1_0,cox1_1,cox2,cox3
+NCBN002890_G03_RMNH_INS_1719816	3	NCBN002890_G03_RMNH_INS_1719816_contig3	0.1654	5412	160.264	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Parnassius szechenyii	8	1	cob,cox1,nad1,nad2,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_G04_RMNH_INS_1719826	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_G05_RMNH_INS_31810	0	NCBN002890_G05_RMNH_INS_31810_contig0	0.187	15277	616.0249	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_G06_RMNH_INS_25613	0	NCBN002890_G06_RMNH_INS_25613_circular	0.1921	15376	553.6022	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Lyssa zampa	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL-a,rrnL-b,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_G07_RMNH_INS_25492	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_G07_RMNH_INS_25679	0	NCBN002890_G07_RMNH_INS_25679_circular	0.1947	15141	300.5584	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_G08_RMNH_INS_25481	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_G09_RMNH_INS_25533	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_G10_RMNH_INS_25528	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002884_G11_RMNH_INS_17058	0	NCBN002884_G11_RMNH_INS_17058_contig0	0.2006	14594	484.0114	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ambulyx schauffelbergeri	15	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL-a,rrnL-b
+NCBN001064_G12_RMNH_INS_25112	0	NCBN001064_G12_RMNH_INS_25112_contig0	0.1747	3445	41.5707	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Tyspanodes hypsalis	5	0	nad4,nad4l,nad5_0,nad5_1,nad6
+NCBN001064_G12_RMNH_INS_25112	1	NCBN001064_G12_RMNH_INS_25112_contig1	0.2187	5707	39.4275	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ahamus yushuensis	6	1	atp6,atp8,cox1,cox2,cox3,nad2
+NCBN001064_G12_RMNH_INS_25112	2	NCBN001064_G12_RMNH_INS_25112_contig2	0.1506	1142	32.7119	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Phyllosphingia dissimilis	3	0	nad3_0,nad3_1,nad5
+NCBN001064_G12_RMNH_INS_25112	3	NCBN001064_G12_RMNH_INS_25112_contig3	0.196	3321	42.5688	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Phthorimaea operculella	4	0	cob,nad1,nad6,rrnL
+NCBN002890_H01_RMNH_INS_1719805	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_H02_RMNH_INS_1719810	0	NCBN002890_H02_RMNH_INS_1719810_contig0	0.1381	804	57.7189	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Choristoneura murinana	2	0	nad4l,nad6
+NCBN002890_H02_RMNH_INS_1719810	1	NCBN002890_H02_RMNH_INS_1719810_contig1	0.153	366	44.7158	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Pycnarmon lactiferalis	1	0	nad2
+NCBN002890_H02_RMNH_INS_1719810	2	NCBN002890_H02_RMNH_INS_1719810_contig2	0.257	611	32.743	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Cnaphalocrocis medinalis	1	1	cox1
+NCBN002890_H02_RMNH_INS_1719810	3	NCBN002890_H02_RMNH_INS_1719810_contig3	0.2075	988	121.1164	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Deilephila elpenor	3	0	atp6,atp8,cox2
+NCBN002890_H02_RMNH_INS_1719810	4	NCBN002890_H02_RMNH_INS_1719810_contig4	0.2121	495	39.1576	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Cucullia pustulata	1	0	cox2
+NCBN002890_H02_RMNH_INS_1719810	5	NCBN002890_H02_RMNH_INS_1719810_contig5	0.2227	1311	38.8131	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Earias clorana	2	0	cox3,nad3
+NCBN002890_H02_RMNH_INS_1719810	6	NCBN002890_H02_RMNH_INS_1719810_contig6	0.201	1015	43.6463	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Actebia praecox	3	0	nad1_0,nad1_1,rrnS
+NCBN002890_H02_RMNH_INS_1719810	7	NCBN002890_H02_RMNH_INS_1719810_contig7	0.1359	942	55.2357	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Papilio dardanus	1	0	nad5
+NCBN002890_H02_RMNH_INS_1719810	8	NCBN002890_H02_RMNH_INS_1719810_contig8	0.2404	570	35.307	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Bassarona dunya	1	0	cob
+NCBN002890_H02_RMNH_INS_1719810	9	NCBN002890_H02_RMNH_INS_1719810_contig9	0.1688	770	118.2623	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Hepialidae	Endoclita signifer	2	0	nad4_0,nad4_1
+NCBN002890_H03_RMNH_INS_22553	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_H04_RMNH_INS_23062	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_H05_RMNH_INS_31811	0	NCBN002890_H05_RMNH_INS_31811_circular	0.1879	15153	417.9539	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Parnassius andreji	17	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN002890_H06_RMNH_INS_25614	0	NCBN002890_H06_RMNH_INS_25614_contig0	0.2339	684	105.1579	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Parapoynx crisonalis	1	0	nad4
+NCBN002890_H06_RMNH_INS_25614	1	NCBN002890_H06_RMNH_INS_25614_contig1	0.252	1222	104.8355	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Leucoptera malifoliella	2	1	cox1,cox2
+NCBN002890_H06_RMNH_INS_25614	2	NCBN002890_H06_RMNH_INS_25614_contig2	0.2161	1143	118.6457	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Parnassius tenedius	3	0	atp6,atp8,cox2
+NCBN002890_H06_RMNH_INS_25614	3	NCBN002890_H06_RMNH_INS_25614_contig3	0.2116	2065	139.6015	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Dolbina paraexacta	3	0	cob,nad4l,nad6
+NCBN002890_H06_RMNH_INS_25614	4	NCBN002890_H06_RMNH_INS_25614_contig4	0.2129	1273	132.5295	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Hydatocapnia marginata	2	0	cob,nad1
+NCBN002890_H06_RMNH_INS_25614	5	NCBN002890_H06_RMNH_INS_25614_contig5	0.2085	3539	146.5448	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Pectinophora gossypiella	4	0	cox3,nad3,nad4,nad5
+NCBN002890_H06_RMNH_INS_25614	6	NCBN002890_H06_RMNH_INS_25614_contig6	0.1924	1320	147.978	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ostrinia zealis	2	1	cox1,nad2
+NCBN001861_H07_RMNH_INS_25508	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002890_H07_RMNH_INS_25680	0	NCBN002890_H07_RMNH_INS_25680_circular	0.192	15137	120.9334	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Pectinophora gossypiella	18	1	atp6,atp8,cob,cox1,cox2,cox3,nad1,nad2,nad3,nad4,nad4l,nad5,nad6,rrnL_0,rrnL_1,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_H08_RMNH_INS_25463	0	NCBN001861_H08_RMNH_INS_25463_contig0	0.2035	1381	25.0022	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Glyphodes pyloalis	2	0	nad4,nad4l
+NCBN001861_H08_RMNH_INS_25463	1	NCBN001861_H08_RMNH_INS_25463_contig1	0.2699	1630	30.0534	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Chilo suppressalis	3	0	cox1_0,cox1_1,cox2
+NCBN001861_H08_RMNH_INS_25463	2	NCBN001861_H08_RMNH_INS_25463_contig2	0.2246	1122	33.918	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Tortricidae	Lelecella limenitoides	1	0	nad5
+NCBN001861_H08_RMNH_INS_25463	3	NCBN001861_H08_RMNH_INS_25463_contig3	0.2158	2942	30.1547	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Heortia vitessoides	6	0	atp6,atp8,cox2,cox3,nad3,nad5
+NCBN001861_H08_RMNH_INS_25463	4	NCBN001861_H08_RMNH_INS_25463_contig4	0.2336	1956	33.0752	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Phthorimaea operculella	3	0	cob,nad1,rrnL
+NCBN001861_H08_RMNH_INS_25463	5	NCBN001861_H08_RMNH_INS_25463_contig5	0.1496	3135	20.8705	no-hit	Metazoa	Arthropoda	Insecta	Lepidoptera	Pyralidae	Hemichloridia euprepia	6	1	cox1,nad2,rrnL,rrnS_0,rrnS_1,rrnS_2
+NCBN001861_H09_RMNH_INS_25538	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN001861_H10_RMNH_INS_25476	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+NCBN002884_H11_RMNH_INS_30295	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA

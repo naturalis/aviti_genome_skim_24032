@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mitogenome Assembly Analysis – AVITI Run 24032</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root {
+    --c-circular:#2a9d8f; --c-partial:#e9c46a; --c-fail:#e76f51;
+    --bg:#f5f5f2; --card:#ffffff; --text:#1e1e1e; --muted:#666;
+    --accent:#264653;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--text); }
+
+  header {
+    background:var(--accent); color:#fff;
+    padding:36px 40px 28px;
+  }
+  header h1 { font-size:24px; font-weight:700; margin-bottom:6px; }
+  header p  { font-size:14px; opacity:0.8; max-width:760px; line-height:1.6; }
+  header a  { color:#a8dadc; }
+
+  .badges { margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; }
+  .badge {
+    display:inline-block; padding:3px 10px; border-radius:12px;
+    font-size:12px; font-weight:600; letter-spacing:.03em;
+  }
+  .badge-gray   { background:#ffffff22; color:#fff; }
+
+  main { max-width:1200px; margin:0 auto; padding:36px 28px 60px; }
+
+  .section-title {
+    font-size:18px; font-weight:700; color:var(--accent);
+    margin:44px 0 6px; border-bottom:2px solid var(--accent);
+    padding-bottom:6px;
+  }
+  .section-sub { font-size:13px; color:var(--muted); margin:0 0 20px; }
+
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  @media(max-width:800px){ .grid2{grid-template-columns:1fr;} }
+
+  .card {
+    background:var(--card); border-radius:14px;
+    padding:20px 22px 14px;
+    box-shadow:0 1px 4px rgba(0,0,0,.08);
+  }
+  .card h3 { font-size:14px; font-weight:600; margin-bottom:4px; }
+  .card p  { font-size:12px; color:var(--muted); margin-bottom:14px; line-height:1.5; }
+  .chart-wrap { position:relative; height:380px; }
+
+  .full-card {
+    background:var(--card); border-radius:14px;
+    padding:20px 22px 14px;
+    box-shadow:0 1px 4px rgba(0,0,0,.08);
+    margin-top:0;
+  }
+  .full-card h3 { font-size:14px; font-weight:600; margin-bottom:4px; }
+  .full-card p  { font-size:12px; color:var(--muted); margin-bottom:14px; line-height:1.5; }
+  .full-chart-wrap { position:relative; height:480px; }
+
+  .legend {
+    display:flex; gap:20px; justify-content:center;
+    margin:16px 0 4px; font-size:12.5px;
+  }
+  .legend-item { display:flex; align-items:center; gap:7px; }
+  .dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+
+  .note { font-size:11.5px; color:#aaa; text-align:center; margin-top:10px; }
+
+  .stats-grid {
+    display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:20px 0 0;
+  }
+  .stat-card {
+    border-radius:12px; padding:18px 20px;
+    text-align:center; color:#fff;
+  }
+  .stat-card .num { font-size:36px; font-weight:700; line-height:1; }
+  .stat-card .lbl { font-size:13px; margin-top:4px; opacity:.85; }
+  .stat-card.circ { background:var(--c-circular); }
+  .stat-card.part { background:var(--c-partial); color:#333; }
+  .stat-card.fail { background:var(--c-fail); }
+
+  footer {
+    background:var(--accent); color:#ffffff99;
+    text-align:center; padding:20px;
+    font-size:12px;
+  }
+  footer a { color:#a8dadc; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mitogenome Assembly Analysis – AVITI Run 24032</h1>
+  <p>
+    Assembly quality of 108 natural history specimens (predominantly Lepidoptera)
+    from the <a href="https://www.naturalis.nl" target="_blank">Naturalis Biodiversity Center</a> collections,
+    sequenced on the AVITI platform (run <strong>20260428_AV250703_24032-5021000_28_04_2026</strong>).
+    Assembled with <a href="https://github.com/o-william-white/skim2mito" target="_blank">Skim2Mito</a>.
+    Hover over any chart element to see sample IDs and details.
+  </p>
+  <div class="badges">
+    <span class="badge badge-gray">n = 108 specimens</span>
+    <span class="badge badge-gray">Lepidoptera</span>
+    <span class="badge badge-gray">Skim2Mito</span>
+    <span class="badge badge-gray">CC BY 4.0</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- SUMMARY STATS -->
+  <p class="section-title">Assembly outcomes</p>
+  <p class="section-sub">Overall breakdown of assembly results across all 108 samples.</p>
+  <div class="stats-grid">
+    <div class="stat-card circ"><div class="num" id="n-circ">—</div><div class="lbl">circular</div></div>
+    <div class="stat-card part"><div class="num" id="n-part">—</div><div class="lbl">partial</div></div>
+    <div class="stat-card fail"><div class="num" id="n-fail">—</div><div class="lbl">fail</div></div>
+  </div>
+
+  <!-- SECTION 1: READ QUALITY -->
+  <p class="section-title" style="margin-top:52px">1 · Read quality vs mitogenome recovery</p>
+  <p class="section-sub">
+    Does having more sequencing reads predict a better assembly? Hover any dot to see the sample ID, read count, and number of mitochondrial genes recovered.
+  </p>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Reads QC vs unique genes recovered</h3>
+      <p>X = log₁₀ reads passing QC. Y = distinct canonical genes out of 15 possible (13 PCGs + rrnL + rrnS). Genes split across contigs are counted once.</p>
+      <div class="chart-wrap"><canvas id="scatter"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Reads QC by assembly outcome</h3>
+      <p>Each dot = one sample, jittered horizontally. Horizontal bar = median. Shows whether read depth alone determines outcome.</p>
+      <div class="chart-wrap"><canvas id="strip"></canvas></div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="dot" style="background:var(--c-circular)"></div>circular</div>
+    <div class="legend-item"><div class="dot" style="background:var(--c-partial)"></div>partial</div>
+    <div class="legend-item"><div class="dot" style="background:var(--c-fail)"></div>fail</div>
+  </div>
+  <p class="note">
+    Key finding: samples below ~1M QC reads almost always fail. Above that threshold, DNA quality (proxied by collection age) becomes the limiting factor.
+  </p>
+
+  <!-- SECTION 2: COLLECTION DECADE -->
+  <p class="section-title" style="margin-top:56px">2 · Assembly outcome by collection decade</p>
+  <p class="section-sub">
+    Does specimen age predict assembly success? 105 samples with a known collection year; 3 excluded (blank date). Hover a bar segment to see the sample IDs it contains.
+  </p>
+
+  <div class="full-card">
+    <h3>Stacked bar: circular / partial / fail per decade</h3>
+    <p>Older specimens skew towards fail, consistent with DNA degradation in dried museum material over time.</p>
+    <div class="full-chart-wrap"><canvas id="decade"></canvas></div>
+  </div>
+
+  <div class="legend" style="margin-top:16px">
+    <div class="legend-item"><div class="dot" style="background:var(--c-circular)"></div>circular</div>
+    <div class="legend-item"><div class="dot" style="background:var(--c-partial)"></div>partial</div>
+    <div class="legend-item"><div class="dot" style="background:var(--c-fail)"></div>fail</div>
+  </div>
+  <p class="note">
+    Collector identity (χ² p = 0.28) and genus (χ² p = 0.65) showed no significant association with assembly outcome.
+    Collection year is the strongest predictor.
+  </p>
+
+</main>
+
+<footer>
+  Data &amp; code: <a href="https://github.com/naturalis/mitogenome-assembly-analysis-24032">github.com/naturalis/mitogenome-assembly-analysis-24032</a>
+  &nbsp;·&nbsp; Raw reads: Naturalis AVITI run 20260428_AV250703_24032-5021000_28_04_2026
+  &nbsp;·&nbsp; <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+</footer>
+
+<script>
+// ── data ─────────────────────────────────────────────────────────────────────
+const scatter_raw = [{"id": "NCBN002890_A01_RMNH_INS_23293", "reads_qc": 18688222, "category": "partial", "unique_genes": 12, "log_reads": 7.2716, "label": "RMNH.INS.23293"}, {"id": "NCBN002890_A02_RMNH_INS_1719806", "reads_qc": 24724132, "category": "circular", "unique_genes": 15, "log_reads": 7.3931, "label": "RMNH.INS.1719806"}, {"id": "NCBN002890_A03_RMNH_INS_1719811", "reads_qc": 24751328, "category": "circular", "unique_genes": 15, "log_reads": 7.3936, "label": "RMNH.INS.1719811"}, {"id": "NCBN002890_A04_RMNH_INS_1719818", "reads_qc": 31628634, "category": "fail", "unique_genes": 0, "log_reads": 7.5001, "label": "RMNH.INS.1719818"}, {"id": "NCBN002890_A05_RMNH_INS_1719828", "reads_qc": 33661352, "category": "circular", "unique_genes": 15, "log_reads": 7.5271, "label": "RMNH.INS.1719828"}, {"id": "NCBN002890_A06_RMNH_INS_31812", "reads_qc": 29075164, "category": "fail", "unique_genes": 0, "log_reads": 7.4635, "label": "RMNH.INS.31812"}, {"id": "NCBN001861_A07_RMNH_INS_25507", "reads_qc": 113310, "category": "fail", "unique_genes": 0, "log_reads": 5.0543, "label": "RMNH.INS.25507"}, {"id": "NCBN002890_A07_RMNH_INS_25673", "reads_qc": 15922086, "category": "circular", "unique_genes": 15, "log_reads": 7.202, "label": "RMNH.INS.25673"}, {"id": "NCBN001861_A08_RMNH_INS_25505", "reads_qc": 61986, "category": "fail", "unique_genes": 0, "log_reads": 4.7923, "label": "RMNH.INS.25505"}, {"id": "NCBN001861_A09_RMNH_INS_25532", "reads_qc": 213462, "category": "fail", "unique_genes": 0, "log_reads": 5.3293, "label": "RMNH.INS.25532"}, {"id": "NCBN001861_A10_RMNH_INS_25527", "reads_qc": 582666, "category": "fail", "unique_genes": 0, "log_reads": 5.7654, "label": "RMNH.INS.25527"}, {"id": "NCBN001861_A11_RMNH_INS_25470", "reads_qc": 73260, "category": "fail", "unique_genes": 0, "log_reads": 4.8649, "label": "RMNH.INS.25470"}, {"id": "NCBN002884_A12_ZSM_Lep_160419", "reads_qc": 93932, "category": "fail", "unique_genes": 0, "log_reads": 4.9728, "label": "ZSM.Lep.160419"}, {"id": "NCBN002890_B01_RMNH_INS_21896", "reads_qc": 7879588, "category": "partial", "unique_genes": 11, "log_reads": 6.8965, "label": "RMNH.INS.21896"}, {"id": "NCBN002890_B02_RMNH_INS_1719807", "reads_qc": 19308428, "category": "partial", "unique_genes": 13, "log_reads": 7.2857, "label": "RMNH.INS.1719807"}, {"id": "NCBN002890_B03_RMNH_INS_1719812", "reads_qc": 17091156, "category": "circular", "unique_genes": 15, "log_reads": 7.2328, "label": "RMNH.INS.1719812"}, {"id": "NCBN002890_B04_RMNH_INS_1719819", "reads_qc": 24420780, "category": "partial", "unique_genes": 14, "log_reads": 7.3878, "label": "RMNH.INS.1719819"}, {"id": "NCBN002890_B05_RMNH_INS_1719829", "reads_qc": 28579738, "category": "circular", "unique_genes": 15, "log_reads": 7.4561, "label": "RMNH.INS.1719829"}, {"id": "NCBN002890_B06_RMNH_INS_25607", "reads_qc": 2247570, "category": "partial", "unique_genes": 1, "log_reads": 6.3517, "label": "RMNH.INS.25607"}, {"id": "NCBN001861_B07_RMNH_INS_25494", "reads_qc": 167192, "category": "fail", "unique_genes": 0, "log_reads": 5.2232, "label": "RMNH.INS.25494"}, {"id": "NCBN002890_B07_RMNH_INS_25676", "reads_qc": 6945590, "category": "circular", "unique_genes": 15, "log_reads": 6.8417, "label": "RMNH.INS.25676"}, {"id": "NCBN002884_B08_RMNH_INS_18436", "reads_qc": 57366, "category": "fail", "unique_genes": 0, "log_reads": 4.7587, "label": "RMNH.INS.18436"}, {"id": "NCBN002890_B08_RMNH_INS_25682", "reads_qc": 37663410, "category": "circular", "unique_genes": 15, "log_reads": 7.5759, "label": "RMNH.INS.25682"}, {"id": "NCBN001861_B09_RMNH_INS_25531", "reads_qc": 398150, "category": "fail", "unique_genes": 0, "log_reads": 5.6, "label": "RMNH.INS.25531"}, {"id": "NCBN001861_B10_RMNH_INS_25466", "reads_qc": 341570, "category": "fail", "unique_genes": 0, "log_reads": 5.5335, "label": "RMNH.INS.25466"}, {"id": "NCBN001861_B11_RMNH_INS_25534", "reads_qc": 127496, "category": "fail", "unique_genes": 0, "log_reads": 5.1055, "label": "RMNH.INS.25534"}, {"id": "NCBN002884_B12_MZLU00236121", "reads_qc": 861216, "category": "partial", "unique_genes": 13, "log_reads": 5.9351, "label": "MZLU00236121"}, {"id": "NCBN002890_C01_RMNH_INS_1719804", "reads_qc": 27093370, "category": "circular", "unique_genes": 15, "log_reads": 7.4329, "label": "RMNH.INS.1719804"}, {"id": "NCBN002890_C02_RMNH_INS_1719808", "reads_qc": 18850422, "category": "partial", "unique_genes": 13, "log_reads": 7.2753, "label": "RMNH.INS.1719808"}, {"id": "NCBN002890_C03_RMNH_INS_1719813", "reads_qc": 17118974, "category": "partial", "unique_genes": 13, "log_reads": 7.2335, "label": "RMNH.INS.1719813"}, {"id": "NCBN002890_C04_RMNH_INS_1719824", "reads_qc": 18855378, "category": "partial", "unique_genes": 15, "log_reads": 7.2754, "label": "RMNH.INS.1719824"}, {"id": "NCBN002890_C05_RMNH_INS_25263", "reads_qc": 27864528, "category": "partial", "unique_genes": 15, "log_reads": 7.4451, "label": "RMNH.INS.25263"}, {"id": "NCBN002890_C06_RMNH_INS_25608", "reads_qc": 4688434, "category": "partial", "unique_genes": 15, "log_reads": 6.671, "label": "RMNH.INS.25608"}, {"id": "NCBN001861_C07_RMNH_INS_25525", "reads_qc": 137552, "category": "fail", "unique_genes": 0, "log_reads": 5.1385, "label": "RMNH.INS.25525"}, {"id": "NCBN002890_C07_RMNH_INS_25677", "reads_qc": 36310464, "category": "circular", "unique_genes": 15, "log_reads": 7.56, "label": "RMNH.INS.25677"}, {"id": "NCBN002884_C08_RMNH_INS_30287", "reads_qc": 11774930, "category": "circular", "unique_genes": 15, "log_reads": 7.071, "label": "RMNH.INS.30287"}, {"id": "NCBN002890_C08_RMNH_INS_25683", "reads_qc": 10738992, "category": "partial", "unique_genes": 15, "log_reads": 7.031, "label": "RMNH.INS.25683"}, {"id": "NCBN001861_C09_RMNH_INS_25526", "reads_qc": 3023656, "category": "partial", "unique_genes": 6, "log_reads": 6.4805, "label": "RMNH.INS.25526"}, {"id": "NCBN001861_C10_RMNH_INS_25473", "reads_qc": 56996, "category": "fail", "unique_genes": 0, "log_reads": 4.7558, "label": "RMNH.INS.25473"}, {"id": "NCBN001861_C11_RMNH_INS_25539", "reads_qc": 351304, "category": "partial", "unique_genes": 5, "log_reads": 5.5457, "label": "RMNH.INS.25539"}, {"id": "NCBN002884_C12_RMNH_INS_25629", "reads_qc": 1129484, "category": "partial", "unique_genes": 13, "log_reads": 6.0529, "label": "RMNH.INS.25629"}, {"id": "NCBN002890_D01_RMNH_INS_21715", "reads_qc": 16492944, "category": "partial", "unique_genes": 13, "log_reads": 7.2173, "label": "RMNH.INS.21715"}, {"id": "NCBN002890_D02_RMNH_INS_1719809", "reads_qc": 23437698, "category": "circular", "unique_genes": 15, "log_reads": 7.3699, "label": "RMNH.INS.1719809"}, {"id": "NCBN002890_D03_RMNH_INS_1719814", "reads_qc": 27233328, "category": "circular", "unique_genes": 15, "log_reads": 7.4351, "label": "RMNH.INS.1719814"}, {"id": "NCBN002890_D04_RMNH_INS_22334", "reads_qc": 108148, "category": "fail", "unique_genes": 0, "log_reads": 5.034, "label": "RMNH.INS.22334"}, {"id": "NCBN002890_D05_RMNH_INS_1719830", "reads_qc": 26502974, "category": "circular", "unique_genes": 15, "log_reads": 7.4233, "label": "RMNH.INS.1719830"}, {"id": "NCBN002890_D06_RMNH_INS_25609", "reads_qc": 27334730, "category": "fail", "unique_genes": 0, "log_reads": 7.4367, "label": "RMNH.INS.25609"}, {"id": "NCBN001861_D07_RMNH_INS_25503", "reads_qc": 35994, "category": "fail", "unique_genes": 0, "log_reads": 4.5562, "label": "RMNH.INS.25503"}, {"id": "NCBN002890_D07_RMNH_INS_31854", "reads_qc": 30571182, "category": "circular", "unique_genes": 15, "log_reads": 7.4853, "label": "RMNH.INS.31854"}, {"id": "NCBN000729_D08_RMNH_5012114", "reads_qc": 222204, "category": "fail", "unique_genes": 0, "log_reads": 5.3468, "label": "RMNH.5012114"}, {"id": "NCBN001861_D08_RMNH_INS_25502", "reads_qc": 119762, "category": "fail", "unique_genes": 0, "log_reads": 5.0783, "label": "RMNH.INS.25502"}, {"id": "NCBN001861_D09_RMNH_INS_25479", "reads_qc": 290704, "category": "fail", "unique_genes": 0, "log_reads": 5.4635, "label": "RMNH.INS.25479"}, {"id": "NCBN001861_D10_RMNH_INS_25536", "reads_qc": 8334820, "category": "partial", "unique_genes": 12, "log_reads": 6.9209, "label": "RMNH.INS.25536"}, {"id": "NCBN002884_D11_ZSM_Lep_160420", "reads_qc": 36854412, "category": "circular", "unique_genes": 15, "log_reads": 7.5665, "label": "ZSM.Lep.160420"}, {"id": "NCBN002884_D12_ZSM_Lep_160416", "reads_qc": 1269230, "category": "partial", "unique_genes": 13, "log_reads": 6.1035, "label": "ZSM.Lep.160416"}, {"id": "NCBN002890_E01_RMNH_INS_21714", "reads_qc": 22308586, "category": "partial", "unique_genes": 15, "log_reads": 7.3485, "label": "RMNH.INS.21714"}, {"id": "NCBN002890_E02_RMNH_INS_22549", "reads_qc": 21303296, "category": "fail", "unique_genes": 0, "log_reads": 7.3284, "label": "RMNH.INS.22549"}, {"id": "NCBN002890_E03_RMNH_INS_1719815", "reads_qc": 18516532, "category": "circular", "unique_genes": 15, "log_reads": 7.2676, "label": "RMNH.INS.1719815"}, {"id": "NCBN002890_E04_RMNH_INS_23221", "reads_qc": 13744584, "category": "partial", "unique_genes": 8, "log_reads": 7.1381, "label": "RMNH.INS.23221"}, {"id": "NCBN002890_E05_RMNH_INS_1719831", "reads_qc": 8290098, "category": "partial", "unique_genes": 13, "log_reads": 6.9186, "label": "RMNH.INS.1719831"}, {"id": "NCBN002890_E06_RMNH_INS_25610", "reads_qc": 8380338, "category": "circular", "unique_genes": 15, "log_reads": 6.9233, "label": "RMNH.INS.25610"}, {"id": "NCBN001861_E07_RMNH_INS_25504", "reads_qc": 35318, "category": "fail", "unique_genes": 0, "log_reads": 4.548, "label": "RMNH.INS.25504"}, {"id": "NCBN002890_E07_RMNH_INS_31855", "reads_qc": 4477774, "category": "partial", "unique_genes": 12, "log_reads": 6.6511, "label": "RMNH.INS.31855"}, {"id": "NCBN001064_E08_RMNH_INS_25054", "reads_qc": 2275106, "category": "partial", "unique_genes": 15, "log_reads": 6.357, "label": "RMNH.INS.25054"}, {"id": "NCBN002884_E08_RMNH_INS_25664", "reads_qc": 134266, "category": "fail", "unique_genes": 0, "log_reads": 5.128, "label": "RMNH.INS.25664"}, {"id": "NCBN001861_E09_RMNH_INS_25541", "reads_qc": 664810, "category": "partial", "unique_genes": 1, "log_reads": 5.8227, "label": "RMNH.INS.25541"}, {"id": "NCBN001861_E10_RMNH_INS_25480", "reads_qc": 1410448, "category": "fail", "unique_genes": 0, "log_reads": 6.1494, "label": "RMNH.INS.25480"}, {"id": "NCBN002884_E11_RMNH_INS_15291", "reads_qc": 1076806, "category": "partial", "unique_genes": 13, "log_reads": 6.0321, "label": "RMNH.INS.15291"}, {"id": "NCBN000729_E12_RMNH_5012129", "reads_qc": 216216, "category": "fail", "unique_genes": 0, "log_reads": 5.3349, "label": "RMNH.5012129"}, {"id": "NCBN002890_F01_RMNH_INS_21717", "reads_qc": 12201564, "category": "partial", "unique_genes": 11, "log_reads": 7.0864, "label": "RMNH.INS.21717"}, {"id": "NCBN002890_F02_RMNH_INS_22294", "reads_qc": 27564166, "category": "fail", "unique_genes": 0, "log_reads": 7.4403, "label": "RMNH.INS.22294"}, {"id": "NCBN002890_F03_RMNH_INS_1556756", "reads_qc": 27257874, "category": "fail", "unique_genes": 0, "log_reads": 7.4355, "label": "RMNH.INS.1556756"}, {"id": "NCBN002890_F04_RMNH_INS_1719825", "reads_qc": 18067688, "category": "partial", "unique_genes": 13, "log_reads": 7.2569, "label": "RMNH.INS.1719825"}, {"id": "NCBN002890_F05_RMNH_INS_1719832", "reads_qc": 22544504, "category": "fail", "unique_genes": 0, "log_reads": 7.353, "label": "RMNH.INS.1719832"}, {"id": "NCBN002890_F06_RMNH_INS_25612", "reads_qc": 14872822, "category": "circular", "unique_genes": 15, "log_reads": 7.1724, "label": "RMNH.INS.25612"}, {"id": "NCBN001861_F07_RMNH_INS_25506", "reads_qc": 201254, "category": "fail", "unique_genes": 0, "log_reads": 5.3037, "label": "RMNH.INS.25506"}, {"id": "NCBN002890_F07_RMNH_INS_31856", "reads_qc": 1095856, "category": "fail", "unique_genes": 0, "log_reads": 6.0398, "label": "RMNH.INS.31856"}, {"id": "NCBN001861_F08_RMNH_INS_25475", "reads_qc": 150120, "category": "fail", "unique_genes": 0, "log_reads": 5.1764, "label": "RMNH.INS.25475"}, {"id": "NCBN002890_F08_RMNH_INS_25615", "reads_qc": 8335958, "category": "circular", "unique_genes": 15, "log_reads": 6.921, "label": "RMNH.INS.25615"}, {"id": "NCBN001861_F09_RMNH_INS_25515", "reads_qc": 11930056, "category": "fail", "unique_genes": 0, "log_reads": 7.0766, "label": "RMNH.INS.25515"}, {"id": "NCBN001861_F10_RMNH_INS_25493", "reads_qc": 1836014, "category": "partial", "unique_genes": 14, "log_reads": 6.2639, "label": "RMNH.INS.25493"}, {"id": "NCBN002884_F11_MZLU00236123", "reads_qc": 114594, "category": "partial", "unique_genes": 13, "log_reads": 5.0592, "label": "MZLU00236123"}, {"id": "NCBN001118_F12_RMNH_INS_25105", "reads_qc": 2205428, "category": "fail", "unique_genes": 0, "log_reads": 6.3435, "label": "RMNH.INS.25105"}, {"id": "NCBN002890_G01_RMNH_INS_21713", "reads_qc": 10623656, "category": "partial", "unique_genes": 13, "log_reads": 7.0263, "label": "RMNH.INS.21713"}, {"id": "NCBN002890_G02_RMNH_INS_22295", "reads_qc": 26023248, "category": "fail", "unique_genes": 0, "log_reads": 7.4154, "label": "RMNH.INS.22295"}, {"id": "NCBN002890_G03_RMNH_INS_1719816", "reads_qc": 15223948, "category": "partial", "unique_genes": 15, "log_reads": 7.1825, "label": "RMNH.INS.1719816"}, {"id": "NCBN002890_G04_RMNH_INS_1719826", "reads_qc": 32135906, "category": "fail", "unique_genes": 0, "log_reads": 7.507, "label": "RMNH.INS.1719826"}, {"id": "NCBN002890_G05_RMNH_INS_31810", "reads_qc": 30655360, "category": "partial", "unique_genes": 15, "log_reads": 7.4865, "label": "RMNH.INS.31810"}, {"id": "NCBN002890_G06_RMNH_INS_25613", "reads_qc": 31047042, "category": "circular", "unique_genes": 15, "log_reads": 7.492, "label": "RMNH.INS.25613"}, {"id": "NCBN001861_G07_RMNH_INS_25492", "reads_qc": 25966, "category": "fail", "unique_genes": 0, "log_reads": 4.4144, "label": "RMNH.INS.25492"}, {"id": "NCBN002890_G07_RMNH_INS_25679", "reads_qc": 14046790, "category": "circular", "unique_genes": 15, "log_reads": 7.1476, "label": "RMNH.INS.25679"}, {"id": "NCBN001861_G08_RMNH_INS_25481", "reads_qc": 76262, "category": "fail", "unique_genes": 0, "log_reads": 4.8823, "label": "RMNH.INS.25481"}, {"id": "NCBN001861_G09_RMNH_INS_25533", "reads_qc": 172628, "category": "fail", "unique_genes": 0, "log_reads": 5.2371, "label": "RMNH.INS.25533"}, {"id": "NCBN001861_G10_RMNH_INS_25528", "reads_qc": 83350, "category": "fail", "unique_genes": 0, "log_reads": 4.9209, "label": "RMNH.INS.25528"}, {"id": "NCBN002884_G11_RMNH_INS_17058", "reads_qc": 29191926, "category": "partial", "unique_genes": 14, "log_reads": 7.4653, "label": "RMNH.INS.17058"}, {"id": "NCBN001064_G12_RMNH_INS_25112", "reads_qc": 1093246, "category": "partial", "unique_genes": 14, "log_reads": 6.0387, "label": "RMNH.INS.25112"}, {"id": "NCBN002890_H01_RMNH_INS_1719805", "reads_qc": 26756758, "category": "fail", "unique_genes": 0, "log_reads": 7.4274, "label": "RMNH.INS.1719805"}, {"id": "NCBN002890_H02_RMNH_INS_1719810", "reads_qc": 17398186, "category": "partial", "unique_genes": 14, "log_reads": 7.2405, "label": "RMNH.INS.1719810"}, {"id": "NCBN002890_H03_RMNH_INS_22553", "reads_qc": 17623492, "category": "fail", "unique_genes": 0, "log_reads": 7.2461, "label": "RMNH.INS.22553"}, {"id": "NCBN002890_H04_RMNH_INS_23062", "reads_qc": 27636498, "category": "fail", "unique_genes": 0, "log_reads": 7.4415, "label": "RMNH.INS.23062"}, {"id": "NCBN002890_H05_RMNH_INS_31811", "reads_qc": 41752598, "category": "circular", "unique_genes": 15, "log_reads": 7.6207, "label": "RMNH.INS.31811"}, {"id": "NCBN002890_H06_RMNH_INS_25614", "reads_qc": 13201342, "category": "partial", "unique_genes": 13, "log_reads": 7.1206, "label": "RMNH.INS.25614"}, {"id": "NCBN001861_H07_RMNH_INS_25508", "reads_qc": 13034, "category": "fail", "unique_genes": 0, "log_reads": 4.1151, "label": "RMNH.INS.25508"}, {"id": "NCBN002890_H07_RMNH_INS_25680", "reads_qc": 11991446, "category": "circular", "unique_genes": 15, "log_reads": 7.0789, "label": "RMNH.INS.25680"}, {"id": "NCBN001861_H08_RMNH_INS_25463", "reads_qc": 738560, "category": "partial", "unique_genes": 14, "log_reads": 5.8684, "label": "RMNH.INS.25463"}, {"id": "NCBN001861_H09_RMNH_INS_25538", "reads_qc": 145270, "category": "fail", "unique_genes": 0, "log_reads": 5.1622, "label": "RMNH.INS.25538"}, {"id": "NCBN001861_H10_RMNH_INS_25476", "reads_qc": 155760, "category": "fail", "unique_genes": 0, "log_reads": 5.1925, "label": "RMNH.INS.25476"}, {"id": "NCBN002884_H11_RMNH_INS_30295", "reads_qc": 68066, "category": "fail", "unique_genes": 0, "log_reads": 4.8329, "label": "RMNH.INS.30295"}];
+const decade_data = [{"decade": 1890, "circular": [], "partial": ["RMNH.INS.25607"], "fail": []}, {"decade": 1900, "circular": [], "partial": [], "fail": ["RMNH.INS.22334"]}, {"decade": 1920, "circular": [], "partial": [], "fail": ["RMNH.INS.25473"]}, {"decade": 1930, "circular": [], "partial": [], "fail": ["RMNH.INS.25466"]}, {"decade": 1940, "circular": [], "partial": ["ZSM:Lep:160416"], "fail": []}, {"decade": 1960, "circular": ["RMNH.INS.25612", "ZSM:Lep:160420"], "partial": ["RMNH.INS.1719824"], "fail": ["ZSM:Lep:160419"]}, {"decade": 1970, "circular": [], "partial": ["RMNH.INS.1719816"], "fail": []}, {"decade": 1980, "circular": ["RMNH.INS.25679", "RMNH.INS.25680", "RMNH.INS.1719812", "RMNH.INS.31811", "RMNH.INS.31854", "RMNH.INS.1719806", "RMNH.INS.1719814", "RMNH.INS.1719830", "RMNH.INS.1719809"], "partial": ["RMNH.INS.1719810", "RMNH.INS.21713", "RMNH.INS.21714", "RMNH.INS.21715", "RMNH.INS.21717", "RMNH.INS.21896", "RMNH.INS.31810", "RMNH.INS.23221", "RMNH.INS.25683", "MZLU00236121", "MZLU00236123", "RMNH.INS.1719813", "RMNH.INS.25263", "RMNH.INS.31855", "RMNH.INS.1719807", "RMNH.INS.1719808"], "fail": ["RMNH.INS.31812", "RMNH.INS.22294", "RMNH.INS.22295", "RMNH.INS.22549", "RMNH.INS.22553", "RMNH.INS.23062"]}, {"decade": 1990, "circular": ["RMNH.INS.1719811", "RMNH.INS.1719804", "RMNH.INS.25676", "RMNH.INS.25677", "RMNH.INS.1719829", "RMNH.INS.1719828", "RMNH.INS.25610"], "partial": ["RMNH.INS.25608", "RMNH.INS.1719831", "RMNH.INS.23293", "RMNH.INS.1719819", "RMNH.INS.1719825", "RMNH.INS.25112"], "fail": ["RMNH.INS.1719826", "RMNH.INS.1719832", "RMNH.INS.25609", "RMNH.INS.31856", "RMNH.INS.1556756", "RMNH.INS.25479", "RMNH.INS.25527", "RMNH.INS.1719818", "RMNH.INS.25492", "RMNH.INS.25494", "RMNH.INS.25502", "RMNH.INS.25503", "RMNH.INS.25504", "RMNH.INS.25664", "RMNH.5012129"]}, {"decade": 2000, "circular": ["RMNH.INS.1719815", "RMNH.INS.25682", "RMNH.INS.25613", "RMNH.INS.25615"], "partial": ["RMNH.INS.15291", "RMNH.INS.25493", "RMNH.INS.25054", "RMNH.INS.25614", "RMNH.INS.25539", "RMNH.INS.25541"], "fail": ["RMNH.5012114", "RMNH.INS.25505", "RMNH.INS.25506", "RMNH.INS.25507", "RMNH.INS.25508", "RMNH.INS.25528", "RMNH.INS.25534", "RMNH.INS.1719805", "RMNH.INS.25533", "RMNH.INS.25480", "RMNH.INS.25532"]}, {"decade": 2010, "circular": ["RMNH.INS.30287"], "partial": ["RMNH.INS.25526", "RMNH.INS.25629", "RMNH.INS.25536", "RMNH.INS.17058"], "fail": ["RMNH.INS.25105", "RMNH.INS.25538", "RMNH.INS.18436", "RMNH.INS.25525", "RMNH.INS.25475", "RMNH.INS.25476", "RMNH.INS.25515", "RMNH.INS.30295", "RMNH.INS.25531"]}, {"decade": 2020, "circular": [], "partial": ["RMNH.INS.25463"], "fail": []}];
+
+const COLORS = {circular:"#2a9d8f", partial:"#e9c46a", fail:"#e76f51"};
+const CATS   = ["circular","partial","fail"];
+
+// summary counts
+const counts = {circular:0, partial:0, fail:0};
+scatter_raw.forEach(d => counts[d.category]++);
+document.getElementById("n-circ").textContent = counts.circular;
+document.getElementById("n-part").textContent = counts.partial;
+document.getElementById("n-fail").textContent = counts.fail;
+
+function fmt(n) {
+  if (!n) return "N/A";
+  if (n>=1e6) return (n/1e6).toFixed(1)+"M";
+  if (n>=1e3) return (n/1e3).toFixed(0)+"k";
+  return ""+n;
+}
+
+const ttStyle = {
+  backgroundColor:"rgba(20,20,20,0.92)",
+  padding:11, displayColors:false,
+  bodyFont:{size:12}, titleFont:{size:13,weight:"600"}
+};
+
+// ── scatter ──────────────────────────────────────────────────────────────────
+new Chart(document.getElementById("scatter"), {
+  type:"scatter",
+  data:{
+    datasets: CATS.map(cat => ({
+      label:cat,
+      data: scatter_raw.filter(d=>d.category===cat).map(d=>
+        ({x:d.log_reads, y:d.unique_genes, reads_qc:d.reads_qc, label:d.label})),
+      backgroundColor:COLORS[cat]+"cc",
+      borderColor:COLORS[cat], borderWidth:1,
+      pointRadius:6, pointHoverRadius:9
+    }))
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    scales:{
+      x:{ title:{display:true,text:"Reads QC (log₁₀)"}, min:4, max:7.9,
+           ticks:{callback:v=>({4:"10k",5:"100k",6:"1M",7:"10M"})[v]??""} },
+      y:{ title:{display:true,text:"Unique mitochondrial genes"}, min:-0.5, max:16,
+           ticks:{stepSize:5}, grid:{color:"#eee"} }
+    },
+    plugins:{ legend:{display:false}, tooltip:{
+      ...ttStyle,
+      callbacks:{
+        title:i=>i[0].raw.label,
+        label:i=>[`Category: ${i.dataset.label}`,`Reads QC: ${fmt(i.raw.reads_qc)}`,`Unique genes: ${i.raw.y} / 15`]
+      }
+    }}
+  }
+});
+
+// ── strip chart ──────────────────────────────────────────────────────────────
+const catIdx = {circular:0,partial:1,fail:2};
+function seededJitter(s,spread) {
+  let h=0; for(let i=0;i<s.length;i++) h=(Math.imul(31,h)+s.charCodeAt(i))|0;
+  return ((h&0xffff)/0xffff-0.5)*spread;
+}
+
+const stripChart = new Chart(document.getElementById("strip"), {
+  type:"scatter",
+  data:{
+    datasets: CATS.map(cat => ({
+      label:cat,
+      data: scatter_raw.filter(d=>d.category===cat).map(d=>
+        ({x:catIdx[cat]+seededJitter(d.label,0.38), y:d.log_reads, reads_qc:d.reads_qc, label:d.label, cat})),
+      backgroundColor:COLORS[cat]+"bb",
+      borderColor:COLORS[cat], borderWidth:1,
+      pointRadius:6, pointHoverRadius:9
+    }))
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    scales:{
+      x:{ min:-0.6, max:2.6, grid:{display:false},
+           ticks:{callback:v=>(CATS[Math.round(v)]??"")} },
+      y:{ title:{display:true,text:"Reads QC (log₁₀)"}, min:4, max:7.9,
+           ticks:{callback:v=>({4:"10k",5:"100k",6:"1M",7:"10M"})[v]??""} }
+    },
+    plugins:{ legend:{display:false}, tooltip:{
+      ...ttStyle,
+      callbacks:{
+        title:i=>i[0].raw.label,
+        label:i=>[`Category: ${i.raw.cat}`,`Reads QC: ${fmt(i.raw.reads_qc)}`]
+      }
+    }}
+  },
+  plugins:[{
+    id:"medians",
+    afterDraw(chart) {
+      const {ctx,scales:{x,y}} = chart;
+      CATS.forEach((cat,i) => {
+        const vals = scatter_raw.filter(d=>d.category===cat&&d.log_reads).map(d=>d.log_reads).sort((a,b)=>a-b);
+        const m = vals.length%2===0 ? (vals[vals.length/2-1]+vals[vals.length/2])/2 : vals[Math.floor(vals.length/2)];
+        const xp=x.getPixelForValue(i), yp=y.getPixelForValue(m);
+        ctx.save(); ctx.strokeStyle=COLORS[cat]; ctx.lineWidth=3;
+        ctx.beginPath(); ctx.moveTo(xp-24,yp); ctx.lineTo(xp+24,yp); ctx.stroke(); ctx.restore();
+      });
+    }
+  }]
+});
+
+// ── decade bar ───────────────────────────────────────────────────────────────
+function wrapIds(arr,n=3){
+  const lines=[]; for(let i=0;i<arr.length;i+=n) lines.push(arr.slice(i,i+n).join(", ")); return lines;
+}
+const ids = {
+  circular: decade_data.map(d=>d.circular),
+  partial:  decade_data.map(d=>d.partial),
+  fail:     decade_data.map(d=>d.fail)
+};
+
+new Chart(document.getElementById("decade"), {
+  type:"bar",
+  data:{
+    labels: decade_data.map(d=>d.decade+"s"),
+    datasets: CATS.map(cat => ({
+      label:cat,
+      data: decade_data.map(d=>d[cat].length),
+      backgroundColor:COLORS[cat],
+      key:cat
+    }))
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    scales:{
+      x:{ stacked:true, grid:{display:false}, title:{display:true,text:"Collection decade"} },
+      y:{ stacked:true, beginAtZero:true, ticks:{precision:0},
+            title:{display:true,text:"Number of samples"}, grid:{color:"#eee"} }
+    },
+    plugins:{ legend:{display:false}, tooltip:{
+      ...ttStyle,
+      callbacks:{
+        title:i=>`${i[0].label} — ${i[0].dataset.label} (n=${i[0].raw})`,
+        label:i=>wrapIds(ids[i.dataset.key][i.dataIndex])
+      }
+    }}
+  }
+});
+</script>
+</body>
+</html>
