@@ -28,7 +28,7 @@ To see which samples make up each bar segment, open the interactive version and 
 
 ## Background
 
-Mitochondrial genomes are assembled from AVITI short reads using **[Skim2Mito](https://github.com/o-william-white/skim2mito)** (White, O.W.), a pipeline designed for low-coverage mitogenome assembly from museum and fresh specimens. The input files used in this repository come from the **`summary/` output folder** of Skim2Mito:
+Mitochondrial genomes are assembled from AVITI short reads using **[Skim2Mito](https://github.com/o-william-white/skim2mito)** (White, O.W. et al. 2025), a pipeline designed for low-coverage mitogenome assembly from museum and fresh specimens. The input files used in this repository come from the **`summary/` output folder** of Skim2Mito:
 
 | Skim2Mito output file | Role here |
 |---|---|
@@ -54,7 +54,7 @@ Raw sequencing reads are stored internally at Naturalis Biodiversity Center unde
 20260428_AV250703_24032-5021000_28_04_2026
 ```
 
-Contact the Naturalis genomics facility for access. The three Skim2Mito summary files and the specimen metadata in `data/` are derived from that run and are included here for full reproducibility.
+The three Skim2Mito summary files and the specimen metadata in `data/` are derived from that run and are included here for full reproducibility.
 
 ---
 
@@ -185,8 +185,10 @@ If you use this analysis, please cite:
 > *Naturalis Biodiversity Center mitogenome assembly analysis, AVITI run 20260428_AV250703_24032-5021000_28_04_2026.* Available at: https://github.com/naturalis/aviti_genome_skim_24032
 
 And cite Skim2Mito:
+> White, O.W., et al. "A snakemake toolkit for the batch assembly, annotation and phylogenetic analysis of mitochondrial genomes and ribosomal genes from genome skims of museum collections." Molecular Ecology Resources 25.1 (2025): e14036. https://doi.org/10.1111/1755-0998.14036
 
-> White, O.W. *Skim2Mito*. https://github.com/o-william-white/skim2mito
+
+
 
 ---
 
