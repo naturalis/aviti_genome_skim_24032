@@ -182,7 +182,7 @@ python scripts/03_plot_reads_vs_assembly.py # produce output/reads_vs_assembly.h
 
 If you use this analysis, please cite:
 
-> *Naturalis Biodiversity Center mitogenome assembly analysis, AVITI run 20260428_AV250703_24032-5021000_28_04_2026.* Available at: https://github.com/naturalis/mitogenome-assembly-analysis-24032
+> *Naturalis Biodiversity Center mitogenome assembly analysis, AVITI run 20260428_AV250703_24032-5021000_28_04_2026.* Available at: https://github.com/naturalis/aviti_genome_skim_24032
 
 And cite Skim2Mito:
 
